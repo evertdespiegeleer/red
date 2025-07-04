@@ -5,7 +5,8 @@
   "version": "0.0.0",
   "scripts": {
     "lint": "npx eslint",
-    "lint:fix": "npx eslint --fix"
+    "lint:fix": "npx eslint --fix",
+    "build": "./scripts/build-all.sh"
   },
   "license": "ISC",
   "workspaces": [
