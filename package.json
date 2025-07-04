@@ -1,0 +1,23 @@
+{
+  "name": "red-redis-cli",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "lint": "npx eslint",
+    "lint:fix": "npx eslint --fix"
+  },
+  "license": "ISC",
+  "workspaces": [
+    "packages/*/*"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "jiti": "^2.4.2",
+    "typescript-eslint": "^8.35.1"
+  }
+}
