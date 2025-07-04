@@ -21,7 +21,7 @@ export const FullScreen = (props: { children: ReactNode }) => {
     const [columns, rows] = useStdoutDimensions()
 
   useEffect(() => {
-    process.stdout.write('\x1Bc')
+    // process.stdout.write('\x1Bc')
   }, [])
 
   return <Box width={columns} height={rows - 1}>{props.children}</Box>
